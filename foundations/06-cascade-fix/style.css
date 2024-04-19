@@ -2,22 +2,28 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+}
+/* move below
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+*/
+.para {
+  font-size: 22px;
 }
 
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
-
-.para {
-  font-size: 22px;
-}
-
-.confirm {
+/*changed selector from .confirm to #confirm-button */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
