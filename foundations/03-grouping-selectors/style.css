@@ -1,0 +1,26 @@
+.class-1.class-2 {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.class-1 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.class-2 {
+    background-color: rgb(255,255,0,0.3);
+}
+
+
+
+
+
+
+
+/*
+* **The first element**: a black background, white text color, and a bold font weight
+* **The second element**: a yellow background
+* **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback 
+*/
